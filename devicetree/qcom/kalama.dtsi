@@ -3933,6 +3933,16 @@
 #include "kalama-pcie.dtsi"
 #include "msm-rdbg.dtsi"
 #include "kalama-thermal.dtsi"
+#include "../../audio-devicetree/kalama-audio.dtsi"
+#include "../../bt-devicetree/kalama-bt.dtsi"
+#include "../../camera-devicetree/kalama-camera.dtsi"
+#include "../../data-devicetree/kalama-ipa.dtsi"
+#include "../../eSE-devicetree/kalama-ese-mtp.dtsi"
+#include "../../eva-devicetree/kalama-eva.dtsi"
+#include "../../graphics-devicetree/gpu/kalama-gpu.dtsi"
+#include "../../mmrm-devicetree/kalama-mmrm.dtsi"
+#include "../../video-devicetree/kalama-vidc.dtsi"
+#include "../../wlan-devicetree/kalama-cnss.dtsi"
 
 &qupv3_se7_2uart {
 	status = "ok";
