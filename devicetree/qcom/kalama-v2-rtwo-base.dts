@@ -14,4 +14,5 @@
 
 #include "kalama-v2-moto-common-base.dtsi"
 #include "kalama-moto-common-nxp-nfc.dtsi"
+#include "../../display-devicetree/kalama-rtwo-sde.dtsi"
 

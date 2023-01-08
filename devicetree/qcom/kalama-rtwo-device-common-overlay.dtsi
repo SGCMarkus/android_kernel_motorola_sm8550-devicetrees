@@ -22,6 +22,9 @@
 #include "kalama-rtwo-thermal-overlay.dtsi"
 #include "kalama-moto-common-charger.dtsi"
 #include "kalama-rtwo-charger-overlay.dtsi"
+#include "../../audio-devicetree/kalama-audio-moto-rtwo-common.dtsi"
+#include "../../display-devicetree/display/kalama-sde-display-rtwo-common.dtsi"
+#include "../../camera-devicetree/kalama-camera-sensor-rtwo-evt1.dtsi"
 
 &soc {
 	mmi_relay {
