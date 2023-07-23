@@ -1,4 +1,4 @@
-#include <dt-bindings/msm-camera.h>
+#include "../../sm8550-modules/qcom/camera-kernel/dt-bindings/msm-camera.h"
 
 &soc {
 	led_front: qcom,camera-flash1 {

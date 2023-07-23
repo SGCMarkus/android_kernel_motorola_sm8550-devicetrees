@@ -1,7 +1,9 @@
 /*
    This base is derivated from kalama-camera-sensor-mtp.dtsi
 */
-#include <dt-bindings/msm-camera.h>
+#include <dt-bindings/clock/qcom,camcc-kalama.h>
+
+#include "../../sm8550-modules/qcom/camera-kernel/dt-bindings/msm-camera.h"
 
 &tlmm {
 	cam_avdd_front_en_default: cam_avdd_front_en_default {

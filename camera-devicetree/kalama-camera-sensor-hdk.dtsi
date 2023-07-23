@@ -1,4 +1,4 @@
-#include <dt-bindings/msm-camera.h>
+#include "../../sm8550-modules/qcom/camera-kernel/dt-bindings/msm-camera.h"
 
 &qupv3_2 {
 	compatible = "qcom,geni-se-qup", "simple-bus";
