@@ -1,7 +1,7 @@
 #include "kalama.dtsi"
-#include "../../eSE-devicetree/kalama-v2-ese-mtp.dtsi"
+#include "../../eSE-devicetree/kalama-v2-ese-common.dtsi"
 #include "../../graphics-devicetree/gpu/kalama-v2-gpu.dtsi"
-#include "../../mmrm-devicetree/kalama-v2-mmrm.dtsi"
+#include "../../mmrm-devicetree/kalama-mmrm-v2.dtsi"
 #include "../../video-devicetree/kalama-vidc-v2.dtsi"
 
 / {
