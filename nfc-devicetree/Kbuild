@@ -1,26 +1,4 @@
-ifneq (,$(filter AI2205,$(ASUS_BUILD_PROJECT)))
-$(warning [Build] dtbo for AI2205 8550 nfc...)
-
-dtbo-y += nxp/kalama-nfc.dtbo \
-	  nxp/AI2205-8550-EVB-nfc-overlay.dtbo \
-	  nxp/AI2205-8550-SR1-nfc-overlay.dtbo \
-	  nxp/AI2205-8550-SR2-nfc-overlay.dtbo \
-	  nxp/AI2205-8550-ER1-nfc-overlay.dtbo \
-	  nxp/AI2205-8550-ER2-nfc-overlay.dtbo \
-	  nxp/AI2205-8550-PR-nfc-overlay.dtbo \
-	  nxp/AI2205-8550-MP-nfc-overlay.dtbo
-
-dtbo-y += nxp/kalama-v2-nfc.dtbo \
-	  nxp/AI2205-8550-EVB-v2-nfc-overlay.dtbo \
-	  nxp/AI2205-8550-SR1-v2-nfc-overlay.dtbo \
-	  nxp/AI2205-8550-SR2-v2-nfc-overlay.dtbo \
-	  nxp/AI2205-8550-ER1-v2-nfc-overlay.dtbo \
-	  nxp/AI2205-8550-ER2-v2-nfc-overlay.dtbo \
-	  nxp/AI2205-8550-PR-v2-nfc-overlay.dtbo \
-	  nxp/AI2205-8550-MP-v2-nfc-overlay.dtbo
-
-else
-
+ifeq ($(CONFIG_ARCH_KALAMA), y)
 dtbo-y += nxp/kalama-nfc.dtbo \
 	  nxp/kalama-nfc-mtp.dtbo \
 	  nxp/kalama-nfc-qrd.dtbo \
